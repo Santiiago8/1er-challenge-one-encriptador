@@ -38,11 +38,25 @@ h1{
     margin-top: 15px;
     margin-left: 100px;
     margin-bottom: 35px;
+    padding: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background: blueviolet;
+    color: #ffffff;
+    transition: 1s all;
+    cursor: pointer;
+}
+.boton-encriptar:hover{
+    background: #2E0249;
+    transform: scale(1.1);
 }
 .boton-desencriptar{
     margin-top: 10px;
-    margin-left: 25px;
+    margin-left: 15px;
     margin-bottom: 35px;
+    font-size: 15px;
 }
 .boton-copiar{
     margin-top: 15px;
