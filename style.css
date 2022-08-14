@@ -59,6 +59,7 @@ textarea{
     background-color: azure;
     text-align: center;
     font-weight: bold;
+    box-shadow: 4px 4px 6px;
 }
 footer{
     padding: 40px 0;
