@@ -1,0 +1,68 @@
+body{
+    font-family: 'Rubik Dirt', cursive;
+}
+header{
+    background-image: linear-gradient(to right, #000000,#3E065F,#000000);
+    padding: 20px 0;
+    
+}
+main{
+    background-image: linear-gradient(45deg, #3E065F,#700B97,#8E05C2,#700B97,#3E065F);
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+.bloque-izq{
+    margin-left: 100px;
+    display: inline-block;
+}
+.bloque-der{
+    float: right;
+    margin-right: 100px;
+}
+.mensaje-recivido{
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 0%;
+    padding-right: 0%;
+}
+.mensaje-encriptado{
+    margin-top: 30px;
+    margin-left: 0%;
+    margin-right: 70px;
+}
+.boton-encriptar{
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-bottom: 35px;
+}
+.boton-desencriptar{
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 35px;
+}
+.boton-copiar{
+    margin-top: 15px;
+    margin-right: 0;
+    margin-left: 90px;
+    margin-bottom: 35px;
+}
+textarea{
+    resize: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 15px;
+    background-color: azure;
+    text-align: center;
+    font-weight: bold;
+}
+footer{
+    padding: 40px 0;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, #000000,#3E065F,#000000);
+}
