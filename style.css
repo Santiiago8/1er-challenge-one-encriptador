@@ -19,8 +19,9 @@ h1{
     display: inline-block;
 }
 .bloque-der{
-    float: right;
+    display: inline-block;
     margin-right: 100px;
+    margin-left: 100px;
 }
 .mensaje-recivido{
     margin-top: 30px;
