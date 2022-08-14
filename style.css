@@ -36,7 +36,7 @@ h1{
 }
 .boton-encriptar{
     margin-top: 15px;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-bottom: 35px;
     padding: 7px;
     font-size: 15px;
@@ -56,13 +56,38 @@ h1{
     margin-top: 10px;
     margin-left: 15px;
     margin-bottom: 35px;
+    padding: 7px;
     font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background: blueviolet;
+    color: #ffffff;
+    transition: 1s all;
+    cursor: pointer;
+}
+.boton-desencriptar:hover{
+    background: #2E0249;
+    transform: scale(1.1);
 }
 .boton-copiar{
     margin-top: 15px;
     margin-right: 0;
     margin-left: 90px;
     margin-bottom: 35px;
+    padding: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background: blueviolet;
+    color: #ffffff;
+    transition: 1s all;
+    cursor: pointer;
+}
+.boton-copiar:hover{
+    background: #2E0249;
+    transform: scale(1.1);
 }
 textarea{
     resize: none;
