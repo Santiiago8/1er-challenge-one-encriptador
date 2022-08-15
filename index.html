@@ -14,19 +14,23 @@
         <h1>Encriptador</h1>
     </header>
     <main>
-        <section class="bloque-izq">
+        <div class="bloque-izq">
             <div class="mensaje-recivido">
                 <textarea name=""  cols="30" rows="20" placeholder="Escribe aqui..."></textarea>
-            </div>   
-            <input type="button" class="boton-encriptar" value="Encriptar"> 
-            <input type="button" class="boton-desencriptar" value="Desencriptar">  
-        </section>
-        <section class="bloque-der">
+            </div>  
+            <div class="caja-botones">
+                <input type="button" class="botones" value="Encriptar"> 
+                <input type="button" class="botones" value="Desencriptar"> 
+            </div>  
+        </div>
+
+        <div class="bloque-der">
             <div class="mensaje-encriptado">
                 <textarea name="" id="" cols="30" rows="20" placeholder="Texto Encriptado" readonly="readonly"></textarea>
             </div>
-            <input type="button" class="boton-copiar" value="Copiar">
-        </section>
+            <input type="button" class="botones" value="Copiar">
+        </div>
+        
     </main>
     <footer>
         <h4>Primer Challenge Alura ONE</h4>
