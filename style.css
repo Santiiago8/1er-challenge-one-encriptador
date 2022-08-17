@@ -80,8 +80,7 @@ textarea{
     text-align: center;
     font-weight: bold;
     box-shadow: 4px 4px 6px;
-    
-    
+    outline: none; 
 }
 footer{
     padding: 20px 0;

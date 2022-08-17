@@ -17,24 +17,25 @@
         <p class="instruccion"><img  class="exclamation" src="images/exclamation.svg" alt="instruccion">Solo letras minúsculas y sin acentos</p>
         <div class="bloque-izq">
             <div class="mensaje-recivido">
-                <textarea name=""  cols="30" rows="20" placeholder="Escribe aqui..."></textarea>
+                <textarea name="" id="texto-recivido" cols="30" rows="20" placeholder="Escribe aqui..." autofocus ></textarea>
             </div>  
             <div class="caja-botones">
-                <input type="button" class="botones" value="Encriptar"> 
-                <input type="button" class="botones" value="Desencriptar"> 
+                <input type="button" class="botones" onclick="encriptacion()" value="Encriptar"> 
+                <input type="button" class="botones" onclick="desencriptar()" value="Desencriptar"> 
             </div>  
         </div>
 
         <div class="bloque-der">
             <div class="mensaje-encriptado">
-                <textarea name="" id="" cols="30" rows="20" placeholder="Texto Encriptado" readonly="readonly"></textarea>
+                <textarea name="" id="texto-encriptado" cols="30" rows="20" placeholder="Texto Encriptado" readonly="readonly"></textarea>
             </div>
-            <input type="button" class="botones" value="Copiar">
+            <input type="button" id="copiar" class="botones" onclick="copy()" value="Copiar">
         </div>
         
     </main>
     <footer>
         <h4>Primer Challenge Alura ONE</h4>
     </footer>
+    <script src="javascript.js"></script>
 </body>
 </html>
