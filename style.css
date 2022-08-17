@@ -25,7 +25,7 @@ main{
 .instruccion{
     display: flex;
     align-items: flex-start;
-    font-size: 10px;
+    font-size: 15px;
     font-family: cursive;
     font-weight: bold;
     color: #000000;
@@ -82,6 +82,7 @@ textarea{
     box-shadow: 4px 4px 6px;
     outline: none; 
 }
+
 footer{
     padding: 20px 0;
     font-size: 20px;
