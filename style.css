@@ -25,14 +25,14 @@ main{
 .instruccion{
     display: flex;
     align-items: flex-start;
-    font-size: 15px;
+    font-size: 20px;
     font-family: cursive;
     font-weight: bold;
     color: #000000;
 }
 .exclamation{
     margin: 0%;
-    width: 10px;
+    width: 20px;
 }
 
 .bloque-izq{
